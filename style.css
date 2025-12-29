@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.6;
+}
+
+header {
+    background: #0a2540;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #0a2540;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.member {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+    .member img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+footer {
+    background: #0a2540;
+    color: #fff;
+    padding: 15px;
+}
