@@ -65,4 +65,10 @@ footer {
     color: #fff;
     padding: 15px;
 }
+.profile-img {
+    width: 150px; /* width */
+    height: 150px; /* height (same as width) */
+    border-radius: 50%;
+    object-fit: cover;
+}
 
